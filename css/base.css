@@ -1,36 +1,37 @@
 /* 根元素字体大小 */
 html {
-    font-size: calc(100vw / 750);
+  font-size: calc(100vw / 750);
 }
+
 /* 默认字体和宽度 */
 body {
-    font: 0px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
-    color: #333;
+  font: 0px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+  color: #333;
 }
 
 /* 超链接 */
 a {
-    color: #333;
-    vertical-align: top;
-    text-decoration-line: none;
+  color: #333;
+  vertical-align: top;
+  text-decoration-line: none;
 }
 
 /* 按钮 */
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* 清除浮动 */
 .flclear::after {
-    display: block;
-    clear: both;
-    content: '';
+  display: block;
+  clear: both;
+  content: '';
 }
 
 /* 分隔符 */
 .separate {
-    border: 1px solid #424242;
-    margin: 0px 10px;
-    font-size: 8px;
-    vertical-align: middle;
+  border: 1px solid #424242;
+  margin: 0px 10px;
+  font-size: 8px;
+  vertical-align: middle;
 }

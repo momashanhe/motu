@@ -1,378 +1,443 @@
 /* #region 顶部背景区 start */
 .topimg img {
-    width: 100%;
-    height: 308px;
-    object-position: center;
-    object-fit: cover;
+  width: 100%;
+  height: 308px;
+  object-position: center;
+  object-fit: cover;
 }
-@media only screen and (768px <= width) {
-    .topimg img {
-        height: 100%;
-    }
+
+@media only screen and (768px <=width) {
+  .topimg img {
+    height: 100%;
+  }
 }
+
 /* #endregion 顶部背景区 end */
 /* #region 顶部导航条 start */
 .topbar {
-    display: flex;
-    justify-content: space-between;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 1226px;
-    width: 100%;
-    height: 48px;
-    line-height: 48px;
-    z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1226px;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  z-index: 1;
 }
+
 .topbar .menu-wrap,
 .topbar .logo-wrap,
 .topbar .welcome-wrap {
-    height: 48px;
-    padding: 0px 10px;
-    white-space: nowrap;
+  height: 48px;
+  padding: 0px 10px;
+  white-space: nowrap;
 }
+
 .topbar .menu-wrap .bars i {
-    width: 20px;
-    height: 20px;
-    padding: 4px;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
 }
+
 .topbar .menu-wrap .side {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 0px;
-    height: 100vh;
-    overflow: hidden;
-    background-color: #fff;
-    font-size: 16px;
-    box-shadow: 0 0 10px #00000050;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 10px #00000050;
 }
+
 .topbar .menu-wrap .side .times {
-    display: inline-block;
-    height: 48px;
-    padding: 0px 10px;
+  display: inline-block;
+  height: 48px;
+  padding: 0px 10px;
 }
+
 .topbar .menu-wrap .side .times i {
-    width: 20px;
-    height: 20px;
-    padding: 4px;
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-    vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
 }
+
 .topbar .menu-wrap .side .menu {
-    width: 220px;
-    height: calc(100% - 48px - 48px);
-    overflow: auto;
-    text-align: center;
-    white-space: nowrap;
+  width: 220px;
+  height: calc(100% - 48px - 48px);
+  overflow: auto;
+  text-align: center;
+  white-space: nowrap;
 }
+
 .topbar .menu-wrap .side .menu>li {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
+
 .topbar .menu-wrap .side .menu>li a {
-    margin: 0px 10px;
+  margin: 0px 10px;
 }
+
 .topbar .menu-wrap .side .menu>li .drop {
-    display: none;
+  display: none;
 }
+
 .topbar .menu-wrap .side .intl {
-    position: absolute;
-    bottom: 0px;
-    width: 220px;
-    height: 48px;
-    text-align: center;
-    white-space: nowrap;
+  position: absolute;
+  bottom: 0px;
+  width: 220px;
+  height: 48px;
+  text-align: center;
+  white-space: nowrap;
 }
+
 .topbar .menu-wrap .side .intl i {
-    display: none;
-    width: 20px;
-    height: 20px;
-    padding: 4px;
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
+  display: none;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
 }
+
 .topbar .menu-wrap .side .intl .lang {
-    width: 220px;
-    text-align: center;
+  width: 220px;
+  text-align: center;
 }
+
 .topbar .menu-wrap .side .intl .lang span {
-    margin: 0px 10px;
+  margin: 0px 10px;
 }
+
 .topbar .logo-wrap span {
-    line-height: 48px;
-    margin: 0px 10px;
-    font-size: 22px;
-    color: #fff;
+  line-height: 48px;
+  margin: 0px 10px;
+  font-size: 22px;
+  color: #fff;
 }
+
 .topbar .welcome-wrap .user i {
-    width: 20px;
-    height: 20px;
-    padding: 4px;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
 }
+
 .topbar .welcome-wrap .side {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  width: 0px;
+  overflow: hidden;
+  background-color: #fff;
+  font-size: 16px;
+  box-shadow: 0 0 10px #00000050;
+}
+
+.topbar .welcome-wrap .side .welcome {
+  width: 220px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media only screen and (width < 768px) {
+
+  .topbar .menu-wrap .bars:hover~.side,
+  .topbar .menu-wrap .side:hover,
+  .topbar .welcome-wrap .user:hover~.side,
+  .topbar .welcome-wrap .side:hover {
+    width: 220px;
+  }
+}
+
+@media only screen and (768px <=width) {
+  .topbar .menu-wrap {
+    order: 2;
+  }
+
+  .topbar .menu-wrap .bars {
+    display: none;
+  }
+
+  .topbar .menu-wrap .side {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: 66vw;
+    max-width: 810px;
+    height: 48px;
+    overflow: visible;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .topbar .menu-wrap .side .times {
+    display: none;
+  }
+
+  .topbar .menu-wrap .side .menu {
+    display: flex;
+    justify-content: space-evenly;
+    position: static;
+    width: 90%;
+    height: auto;
+    overflow: visible;
+  }
+
+  .topbar .menu-wrap .side .menu a {
+    display: inline-block;
+    color: #fff;
+  }
+
+  .topbar .menu-wrap .side .menu>li {
+    width: auto;
+    padding: 0px calc((100% - 308px) / 10);
+    transition: all 0.2s;
+  }
+
+  .topbar .menu-wrap .side .menu>li:hover {
+    background-color: #fff;
+  }
+
+  .topbar .menu-wrap .side .menu>li:hover a {
+    color: #000;
+  }
+
+  .topbar .menu-wrap .side .menu>li:hover::after {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    border-bottom: 2px solid #26a;
+    content: '';
+  }
+
+  .topbar .menu-wrap .side .menu>li .drop {
+    display: block;
     position: absolute;
     top: 100%;
-    right: 0px;
-    width: 0px;
+    left: 0;
+    width: 100%;
+    height: 0px;
     overflow: hidden;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #000;
+    transition: all 0.2s;
+  }
+
+  .topbar .menu-wrap .side .menu>li:hover .drop,
+  .topbar .menu-wrap .side .menu>li .drop:hover {
     background-color: #fff;
-    font-size: 16px;
-    box-shadow: 0 0 10px #00000050;
-}
-.topbar .welcome-wrap .side .welcome {
-    width: 220px;
+    height: 260px;
+  }
+
+  .topbar .menu-wrap .side .menu>li .drop li {
+    width: 100%;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+  }
+
+  .topbar .menu-wrap .side .menu>li .drop li:hover {
+    box-shadow: 0 0 10px #00000020 inset;
+  }
+
+  .topbar .menu-wrap .side .intl {
+    position: relative;
+    width: 10%;
+    height: auto;
     text-align: center;
-    white-space: nowrap;
+    transition: all 0.2s;
+  }
+
+  .topbar .menu-wrap .side .intl:hover {
+    background-color: #fff;
+  }
+
+  .topbar .menu-wrap .side .intl:hover::after {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    border-bottom: 2px solid #26a;
+    content: '';
+  }
+
+  .topbar .menu-wrap .side .intl i {
+    display: inline-block;
+    padding: 14px;
+    color: #fff;
+    transition: all 0.2s;
+  }
+
+  .topbar .menu-wrap .side .intl:hover i {
+    color: #000;
+  }
+
+  .topbar .menu-wrap .side .intl .lang {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    padding: 10px 0px;
+    font-size: 14px;
+    color: #000;
+    transition: all 0.2s;
+  }
+
+  .topbar .menu-wrap .side .intl:hover .lang,
+  .topbar .menu-wrap .side .intl .lang:hover {
+    background-color: #fff;
+    height: 260px;
+  }
+
+  .topbar .menu-wrap .side .intl .lang a {
+    display: block;
+    width: 100%;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+  }
+
+  .topbar .menu-wrap .side .intl .lang a:hover {
+    box-shadow: 0 0 10px #00000020 inset;
+  }
+
+  .topbar .menu-wrap .side .intl .lang span {
+    display: none;
+  }
+
+  .topbar .logo-wrap {
+    order: 1;
+  }
+
+  .topbar .welcome-wrap {
+    order: 3;
+  }
+
+  .topbar .welcome-wrap .user {
+    display: none;
+  }
+
+  .topbar .welcome-wrap .side {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: 104px;
+    height: 48px;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: none;
+  }
+
+  .topbar .welcome-wrap .side .welcome {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+  }
+
+  .topbar .welcome-wrap .side .welcome a {
+    margin: 0px 10px;
+    color: #fff;
+  }
 }
-@media only screen and (width < 768px) {
-    .topbar .menu-wrap .bars:hover~.side,
-    .topbar .menu-wrap .side:hover,
-    .topbar .welcome-wrap .user:hover~.side,
-    .topbar .welcome-wrap .side:hover {
-        width: 220px;
-    }
-}
-@media only screen and (768px <= width) {
-    .topbar .menu-wrap {
-        order: 2;
-    }
-    .topbar .menu-wrap .bars {
-        display: none;
-    }
-    .topbar .menu-wrap .side {
-        display: flex;
-        justify-content: space-between;
-        position: static;
-        width: 66vw;
-        max-width: 810px;
-        height: 48px;
-        overflow: visible;
-        background-color: transparent;
-        color: #fff;
-        box-shadow: none;
-    }
-    .topbar .menu-wrap .side .times {
-        display: none;
-    }
-    .topbar .menu-wrap .side .menu {
-        display: flex;
-        justify-content: space-evenly;
-        position: static;
-        width: 90%;
-        height: auto;
-        overflow: visible;
-    }
-    .topbar .menu-wrap .side .menu a {
-        display: inline-block;
-        color: #fff;
-    }
-    .topbar .menu-wrap .side .menu>li {
-        width: auto;
-        padding: 0px calc((100% - 308px) / 10);
-        transition: all 0.2s;
-    }
-    .topbar .menu-wrap .side .menu>li:hover {
-        background-color: #fff;
-    }
-    .topbar .menu-wrap .side .menu>li:hover a {
-        color: #000;
-    }
-    .topbar .menu-wrap .side .menu>li:hover::after {
-        position: absolute;
-        bottom: 0;
-        left: 10%;
-        width: 80%;
-        border-bottom: 2px solid #26a;
-        content: '';
-    }
-    .topbar .menu-wrap .side .menu>li .drop {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 0px;
-        overflow: hidden;
-        padding: 10px 0px;
-        font-size: 14px;
-        color: #000;
-        transition: all 0.2s;
-    }
-    .topbar .menu-wrap .side .menu>li:hover .drop,
-    .topbar .menu-wrap .side .menu>li .drop:hover {
-        background-color: #fff;
-        height: 260px;
-    }
-    .topbar .menu-wrap .side .menu>li .drop li {
-        width: 100%;
-        transition: box-shadow 0.5s;
-        cursor: pointer;
-    }
-    .topbar .menu-wrap .side .menu>li .drop li:hover {
-        box-shadow: 0 0 10px #00000020 inset;
-    }
-    .topbar .menu-wrap .side .intl {
-        position: relative;
-        width: 10%;
-        height: auto;
-        text-align: center;
-        transition: all 0.2s;
-    }
-    .topbar .menu-wrap .side .intl:hover {
-        background-color: #fff;
-    }
-    .topbar .menu-wrap .side .intl:hover::after {
-        position: absolute;
-        bottom: 0;
-        left: 10%;
-        width: 80%;
-        border-bottom: 2px solid #26a;
-        content: '';
-    }
-    .topbar .menu-wrap .side .intl i {
-        display: inline-block;
-        padding: 14px;
-        color: #fff;
-        transition: all 0.2s;
-    }
-    .topbar .menu-wrap .side .intl:hover i {
-        color: #000;
-    }
-    .topbar .menu-wrap .side .intl .lang {
-        display: block;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        height: 0px;
-        overflow: hidden;
-        padding: 10px 0px;
-        font-size: 14px;
-        color: #000;
-        transition: all 0.2s;
-    }
-    .topbar .menu-wrap .side .intl:hover .lang,
-    .topbar .menu-wrap .side .intl .lang:hover {
-        background-color: #fff;
-        height: 260px;
-    }
-    .topbar .menu-wrap .side .intl .lang a {
-        display: block;
-        width: 100%;
-        transition: box-shadow 0.5s;
-        cursor: pointer;
-    }
-    .topbar .menu-wrap .side .intl .lang a:hover {
-        box-shadow: 0 0 10px #00000020 inset;
-    }
-    .topbar .menu-wrap .side .intl .lang span {
-        display: none;
-    }
-    .topbar .logo-wrap {
-        order: 1;
-    }
-    .topbar .welcome-wrap {
-        order: 3;
-    }
-    .topbar .welcome-wrap .user {
-        display: none;
-    }
-    .topbar .welcome-wrap .side {
-        display: flex;
-        justify-content: space-between;
-        position: static;
-        width: 104px;
-        height: 48px;
-        background-color: transparent;
-        color: #fff;
-        box-shadow: none;
-    }
-    .topbar .welcome-wrap .side .welcome {
-        display: flex;
-        justify-content: space-between;
-        position: static;
-        width: auto;
-        height: auto;
-        overflow: visible;
-    }
-    .topbar .welcome-wrap .side .welcome a {
-        margin: 0px 10px;
-        color: #fff;
-    }
-}
+
 /* #endregion 顶部导航条 end */
 /* #region 功能介绍区 start */
 .function {
-    margin: 30px 20px;
+  margin: 30px 20px;
 }
+
 .function .content-wrap .contents {
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    justify-content: space-between;
-    max-width: 1226px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: space-between;
+  max-width: 1226px;
 }
+
 .function .content-wrap .contents li {
-    width: 100%;
-    height: 20vw;
-    max-height: 150px;
-    border-radius: 8px;
-    text-align: center;
+  width: 100%;
+  height: 20vw;
+  max-height: 150px;
+  border-radius: 8px;
+  text-align: center;
 }
+
 .function .content-wrap .contents li:nth-child(2) {
-    margin: 20px 0px;
+  margin: 20px 0px;
 }
+
 .function .content-wrap .contents li:nth-child(1) {
-    background: url(../images/banner1.png) center / cover no-repeat;
+  background: url(../images/banner1.png) center / cover no-repeat;
 }
+
 .function .content-wrap .contents li:nth-child(2) {
-    background: url(../images/banner2.png) center / cover no-repeat;
+  background: url(../images/banner2.png) center / cover no-repeat;
 }
+
 .function .content-wrap .contents li:nth-child(3) {
-    background: url(../images/banner3.png) center / cover no-repeat;
+  background: url(../images/banner3.png) center / cover no-repeat;
 }
+
 .function .content-wrap .contents li a {
-    display: flex;
-    justify-content: space-around;
-    justify-items: center;
-    width: 100%;
-    height: 100%;
-    border: none;
-    text-align: center;
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+  text-align: center;
 }
+
 .function .content-wrap .contents li span {
+  margin: auto;
+  font-size: 30px;
+  color: #fff;
+}
+
+@media only screen and (768px <=width) {
+  .function {
+    margin: 30px;
+  }
+
+  .function .content-wrap .contents {
+    flex-direction: row;
     margin: auto;
-    font-size: 30px;
-    color: #fff;
+  }
+
+  .function .content-wrap .contents li {
+    max-height: 200px;
+  }
+
+  .function .content-wrap .contents li:nth-child(2) {
+    margin: 0px 30px;
+  }
 }
-@media only screen and (768px <= width) {
-    .function {
-        margin: 30px;
-    }
-    .function .content-wrap .contents {
-        flex-direction: row;
-        margin: auto;
-    }
-    .function .content-wrap .contents li {
-        max-height: 200px;
-    }
-    .function .content-wrap .contents li:nth-child(2) {
-        margin: 0px 30px;
-    }
-}
+
 /* #endregion 功能介绍区 end */
