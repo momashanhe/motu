@@ -394,15 +394,15 @@
 }
 
 .function .content-wrap .contents li:nth-child(1) {
-  background: url(../images/banner1.png) center / cover no-repeat;
+  background: url(../img/banner1.png) center / cover no-repeat;
 }
 
 .function .content-wrap .contents li:nth-child(2) {
-  background: url(../images/banner2.png) center / cover no-repeat;
+  background: url(../img/banner2.png) center / cover no-repeat;
 }
 
 .function .content-wrap .contents li:nth-child(3) {
-  background: url(../images/banner3.png) center / cover no-repeat;
+  background: url(../img/banner3.png) center / cover no-repeat;
 }
 
 .function .content-wrap .contents li a {
